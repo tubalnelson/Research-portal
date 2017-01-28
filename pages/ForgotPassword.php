@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Home</title>
-        <link rel="shortcut icon" href="resources/Images/maseno20university.png"  type="image/x-icon"/>
-        <link href="resources/CSS/Style.css" rel="stylesheet" type="text/css"/>
+        <link rel="shortcut icon" href="../resources/Images/maseno20university.png"  type="image/x-icon"/>
+        <link href="../resources/CSS/Style.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <!--  JavaScript -->
@@ -17,13 +17,13 @@
     </head>
     <body>
         <div class="container-fluid header" >
-            <img src="resources/Images/msu_banner2.png" alt="" class="header-img image-responsive"/>
+            <img src="../resources/Images/msu_banner2.png" alt="" class="header-img image-responsive"/>
             <h1 class="header-text text-primary text-center">Welcome...</h1>
 
         </div>
         <div class="navbar navbar-inverse navbar-static-top my-navbar" data-spy="affix" data-offset-top="197">
             <div class="container">
-                <a href="#" class="navbar-brand"> <img src="resources/Images/maseno20university.png" alt="Maseno University Research Portal" class="brand-img"/> </a>
+                <a href="maseno.ac.ke" class="navbar-brand">Maseno University Website</a>
                 <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
