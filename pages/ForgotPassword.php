@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Home</title>
+        <title>Forgot password</title>
         <link rel="shortcut icon" href="../resources/Images/maseno20university.png"  type="image/x-icon"/>
         <link href="../resources/CSS/Style.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -37,5 +37,6 @@
                 </div>
             </div>
         </div>
+        <div class=""
     </body>
 </html>
