@@ -174,17 +174,12 @@ $title = $_POST['articleTitle'];
                                 <option value="nonkenyan">Non Kenyan Institution</option>
                                 </select>
                         </div>
-                
-                <div id="collaboratingDiv" style="display:none;">
+                                <div id="collaboratingDiv" style="display:none;">
                         <div class="form-group">
                                 <label for="collaboratinginstitution">Collaborating Institution</label>
                                 <input type="text" name="collaboratinginstitution" class="form-control" id="collaboratinginstitution" placeholder="Collaborating Institution" required>
                         </div>
                 </div>end of collaboratingDiv -->
-
-
-
-
                         <div class="form-group">
                                  <!--<input type="text" name="fundsource" class="form-control" id="fundsource" placeholder="Source of funding" required>-->
                             <label for="institutionalcategory">Institutional category:</label>
@@ -198,12 +193,7 @@ $title = $_POST['articleTitle'];
                                 <label for="collaboratinginstitution">Collaborating Institution:</label>
                                 <input type="text" name="collaboratinginstitution" class="form-control" id="collaboratinginstitution" placeholder="collaboratinginstitution" required>
                             </div>
-
                         </div>
-
-
-
-
                         <div class="form-group">
                             <label for="studyType">Study Type</label>
                             <select name="studyType"  class="form-control" required>
@@ -221,8 +211,8 @@ $title = $_POST['articleTitle'];
                         </div>
                         <div class="form-group">
                             <input type="submit" class="form-control btn-primary" id="next" value="Next">
-
                         </div>
+                    </form>
                 </div>
 
             </div>
