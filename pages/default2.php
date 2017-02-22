@@ -210,7 +210,7 @@ $title = $_POST['articleTitle'];
                             <input type="text" name="keywords" class="form-control" id="keywords" placeholder="Key words here" required>
                         </div>
                         <div class="form-group">
-                            <input type="submit" class="form-control btn-primary" id="next" value="Next">
+                            <input type="submit" class="form-control btn-primary" id="next" value="Submit">
                         </div>
                     </form>
                 </div>
