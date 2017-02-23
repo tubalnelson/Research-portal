@@ -48,7 +48,7 @@ and open the template in the editor.
             <div class="rows">
               
                 <div class="col-md-6 well">
-                    <form action="pages/default2.php" method="post" accept-charset="UTF-8">
+                    <form action="default2.php" method="post" accept-charset="UTF-8">
                         <div class="form-group">
                             <label for="articleType">Article Type</label>
                             <!--<input type="text" name="articleType" class="form-control" id="articleType" aria-describedby="emailHelp" placeholder="article Type" autocomplete="on">-->
@@ -66,6 +66,7 @@ and open the template in the editor.
                             <input type="submit" class="form-control btn-primary" id="login" value="Next">
 
                         </div>
+                    </form>
                 </div>
                
             </div>
