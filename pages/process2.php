@@ -1,6 +1,4 @@
-<html>
 <?php
-// This results in an error.
-// The output above is before the header() call
+//this redirect the page to another file
 header('Location: default1.php');
 ?> 
