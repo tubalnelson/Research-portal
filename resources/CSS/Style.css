@@ -1,0 +1,109 @@
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix {
+    padding-top: 70px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #999999;
+}
+.header-img{
+    width: 103%;
+    margin-left:-25px;
+}
+.header-text{
+    margin-top:-50px;
+ }
+ .brand-img{
+     height: 50px;
+     width:80px;
+     margin-top:-10px;
+ }
+ .bg-note{
+     background-color: #ff6633;
+ }
+ .img-header{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: -25px;
+}
+.wel{
+    border: 1px solid cadetblue;
+}
+h1.heading1{
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../images/bottom-border.png) 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(../images/bottom-border.png) 30 stretch; /* Opera 11-12.1 */
+    border-image: url(../images/bottom-border.png) 30 stretch;
+    color:#006666;
+    font-family: 'Merriweather', serif;
+}
+.footer-title{
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../images/top-border.png) 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(../images/top-border.png) 30 stretch; /* Opera 11-12.1 */
+    border-image: url(../images/top-border.png) 30 stretch;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-image{
+    height: 70px;
+    width: 70px;
+    margin-top: -50px;
+    margin-right:100px;
+    margin-left: -100px;
+}
+th{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+td{
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+}
+.button {
+    background-color: cadetblue;
+    background-image: -webkit-linear-gradient(top, cadetblue, cadetblue);
+    background-image: -moz-linear-gradient(top,cadetblue,cadetblue);
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: coral;
+    text-decoration: none !important;
+    padding: 5px 20px;
+    line-height: inherit;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+.button:hover {
+    opacity: 0.9;
+}
+#incfont{
+    background-color: orange;
+    background-image: -webkit-linear-gradient(top, orange, orange);
+    background-image: -moz-linear-gradient(top,orange,orange);
+    color:black;
+}
+#decfont{
+    background-color: orange;
+    background-image: -webkit-linear-gradient(top, orange, orange);
+    background-image: -moz-linear-gradient(top,orange,orange);
+    color:black;
+}
+#fontlinks{
+    margin-top:0px;
+    margin-bottom:20px;
+}
+.buttonfont{
+    color:dimgrey;
+}

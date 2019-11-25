@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Home</title>
+        <link rel="shortcut icon" href="resources/Images/maseno20university.png"  type="image/x-icon"/>
+        <link href="resources/CSS/Style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!--  JavaScript files-->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!--Bootstrap javascript-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid header" >
+            <img src="resources/Images/msu_banner2.png" alt="" class="header-img image-responsive"/>
+            <h1 class="header-text text-primary text-center">Welcome...</h1>
+        </div>
+        <div class="navbar navbar-inverse navbar-static-top my-navbar" data-spy="affix" data-offset-top="197" style="background-color: #009999; ">
+            <div class="container">
+                <a href="www.maseno.ac.ke" class="navbar-brand">Maseno University Website </a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse navHeaderCollapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="rows">
+                <div class="col-md-3 well">
+                    <p><b>Welcome to Maseno University Ethics Review Committee online submission system</b></p><p>
+                        This system allows Investigators to submit their proposals/protocols/projects electronically.
+                        <br> Investigators can follow their proposals/protocols/projects’ progress through the review process.</p>
+                    <p><b class="bg-note">New users:</b> Please click <a href="pages/register_user.php">Register Now</a> and enter the requested information. Upon successful registration, you will be sent an email with instructions and your log-in information.</p>
+                    <p><b class="bg-note">Existing users:</b> Do not register again. Simply enter your username and password and click the Investigator log in button. If you have forgotten your details please click <a href="password_reset.php">Forgot Password.</a></p>
+                    <p><b class="bg-note"> </b> 
+                </div>
+                <div class="col-md-6 well">
+                    <form action="pages/process1.php" method="post" accept-charset="UTF-8">
+                        <div class="form-group">
+                            <label for="username">User Name/Email</label>
+                            <input type="email" name="username" class="form-control" id="username" placeholder="user name/email" autocomplete="on">
+                        </div>
+                        <div class="form-group">
+                            <label for="userPassword">Password</label>
+                            <input type="password" name="password" class="form-control" id="userPassword" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="form-control btn-primary" id="login" value="Login">
+                            <label for="forgotpassword"><a href="pages/ForgotPassword.php">Forgot Password?</a></label>
+                        </div>
+                </div>
+                <div class="col-md-3 well">Navigation</div>
+            </div>
+        </div>
+    </body>
+</html>
